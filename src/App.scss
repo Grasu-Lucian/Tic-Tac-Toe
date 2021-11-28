@@ -1,0 +1,115 @@
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.tic-tac-toe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20vh;
+    font-size: 3rem;
+    color:rgb(209, 224, 123);
+}
+.play-space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color:rgb(209, 224, 123);
+ .positions{
+     width: 50%;
+ }
+    button{
+        width:30%;
+        height: 11vh;
+        outline: none;
+        background-color: transparent;
+        border:1px solid transparent;
+        font-size: 3rem;
+       box-sizing: content-box;
+       
+       color:rgb(209, 224, 123);
+    }
+    span{
+        opacity: 0;
+    }
+    .bar{
+        position: absolute;
+        width: 5px;
+        top:30vh;
+        height: 36vh;
+        left:41%;
+        background-color: rgb(209, 224, 123);
+        border-radius: 200px;
+        
+    }
+    .bar2{
+        left:57%;
+    }
+    .bar3{
+        position: absolute;
+        width: 49%;
+        top:41.5vh;
+        height: 0.5vh;
+        left:25%;
+        background-color: rgb(209, 224, 123);
+        border-radius: 200px;
+        
+    }
+    .bar4{
+        top:53.5vh;
+    }
+.text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:5vh;
+    left:40%;
+    font-size: 3rem;
+}
+.restart{
+  
+    margin-left: 33%;
+}
+
+}
+
+@media only screen and (max-width: 840px) {
+    .play-space{
+    button{
+        width:28%;
+        height: 11vh;
+        outline: none;
+        background-color: transparent;
+        border:1px solid transparent;
+        font-size: 2rem;
+       margin-left:5px;
+       font-size: 1.7rem;
+       color:rgb(209, 224, 123);
+    }
+    .text{
+        left: 35%;
+    }
+}
+}
+@media only screen and (max-width: 706px) {
+    .play-space{
+    button{
+        width:25%;
+        height: 11vh;
+        outline: none;
+        background-color: transparent;
+        border:1px solid transparent;
+        font-size: 1.9rem;
+       
+       
+       color:rgb(209, 224, 123);
+    }
+    .text{
+        left: 28%;
+    }
+}
+}
